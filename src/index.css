@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-navy: #173A55;
+    --brand-gold: #C4A46A;
+    --brand-ivory: #F5F4F0;
+    --brand-navy-light: #204C6E;
+    --brand-navy-dark: #0F273B;
+  }
+}
+
+@media print {
+  /* Hide non-printable UI elements */
+  .no-print, header, nav, .print-hide, button {
+    display: none !important;
+  }
+
+  body {
+    background-color: #ffffff !important;
+    color: #1a1a1a !important;
+    font-size: 11pt;
+  }
+
+  .print-page {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  .page-break-before {
+    page-break-before: always;
+  }
+}

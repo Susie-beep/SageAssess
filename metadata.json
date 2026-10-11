@@ -1,0 +1,10 @@
+{
+  "name": "Sage Assessment - 雅思入学评测系统",
+  "description": "赛思国际英语教育（Sage）雅思入学评测与教学诊断系统，支持学生机考模考、听说读写四科诊断、AI初评与教师互斥复核及官方维度综合报告。",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
